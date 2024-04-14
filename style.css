@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+    display: flex;
+    position: relative;
+}
+
+.icons {
+    width: 90px;
+    height: 800px;
+    font-size: 30px;
+    background-color: rgb(19, 18, 53);
+    color: aliceblue;
+}
+
+.icons>p {
+    padding: 15px;
+}
+
+i {
+    border: 1px solid aliceblue;
+    padding: 10px;
+}
+
+.box {
+    position: absolute;
+    display: none;
+    margin-left: 90px;
+    width: 250px;
+    height: 800px;
+    font-size: 30px;
+    background-color: rgb(19, 18, 53);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.box>p {
+    padding: 24px;
+}
+
+i:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.box>p:hover {
+    background-color: blue;
+}
+
+.container:hover .box {
+    display: inline;
+}
